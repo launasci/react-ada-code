@@ -1,5 +1,12 @@
 export default function MeuComponente() {
   return (
-    <h2>Meu primeiro componente!</h2>
+    <div>
+      <br />
+      <h2>Esse é o primeiro componente que criamos e importamos para o <br />
+        componente pai que é o APP.</h2>
+      <p> ---------------------------------------------</p>
+      <br />
+    </div>
+    
   )
 }
