@@ -18,6 +18,8 @@ export default function MeuContador(){
       <h3> Eu sou o resultado de um gerenciamento de estado usando useState: {contador} </h3>
       <button onClick={incrementar}>Incrementar</button>
       <MeuComponenteCondicional contador={contador} />
+      <p> ---------------------------------------------</p>
+      <br />
     </div>
   )
 }
